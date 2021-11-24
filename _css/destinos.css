@@ -1,0 +1,180 @@
+
+
+.corpo{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    'box1 box1 box1'
+    'box2 box2 box2'
+    'box3 box3 box3'
+    'box4 box4 box4'
+    'footer footer footer'
+    ;
+    
+}
+/* ---------- Box 1 Azul-------------- */
+
+.box1{
+    grid-area: box1;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    'imagem1 texto';
+    height: 280px;
+    background-color:  #DDF2F2;
+    width: 100%;
+    margin-left: 0;
+   
+    
+}
+.box1 img{
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 160px;
+}
+.box1 p{
+    padding-right: 200px;
+    padding-top: 50px ;
+    float: initial;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+}
+.box1 a{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    padding-right: 180px;
+}
+
+/* ---------- Box 2 Branco-------------- */
+
+.box2{
+    grid-area: box2;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    'texto imagem2';
+    height: 280px;
+    width: 100%;
+    
+}
+.box2 img{
+    width: 500px;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.box2 p{
+    padding-left: 230px;
+    padding-top: 50px ;
+    float: initial;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+}
+.box2 a{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    padding-right: 20px;
+}
+/* ---------- Box 3 Azul-------------- */
+
+.box3{
+    grid-area: box3;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    'imagem3 texto';
+    height: 280px;
+    background-color:  #DDF2F2;
+    width: 100%;
+    margin-left: 0;
+}
+.box3 img{
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 160px;
+}
+.box3 p{
+    padding-right: 200px;
+    padding-top: 50px ;
+    float: initial;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    width: 300px;
+}
+.box3 a{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    padding-right: 180px;
+}
+
+/* ---------- Box 4 Branco-------------- */
+
+.box4{
+    grid-area: box4;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    'texto imagem4';
+    height: 280px;
+    width: 100%;
+}
+.box4 img{
+    width: 500px;
+    padding-top: 30px;
+    padding-right: -10px;
+}
+.box4 p{
+    padding-left: 230px;
+    padding-top: 50px ;
+    width: 200px;
+    float: initial;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+}
+.box4 a{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    padding-right: 20px;
+}
+
+
+
